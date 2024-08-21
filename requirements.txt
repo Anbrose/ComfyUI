@@ -5,7 +5,7 @@ apex==0.9.10dev
 azureml==0.2.7
 basicsr==1.4.2
 black==24.8.0
-caffe2==0.8.1
+caffe2
 cityscapesscripts==2.2.3
 cuml==0.6.1.post1
 einops==0.8.0
