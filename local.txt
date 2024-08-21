@@ -1,0 +1,9 @@
+fastapi
+safetensors
+transformers
+einops
+scipy
+torchsde
+aiohttp
+python-multipart
+uvicorn
