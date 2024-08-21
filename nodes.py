@@ -1877,7 +1877,7 @@ NODE_CLASS_MAPPINGS = {
     "GLIGENLoader": GLIGENLoader,
     "GLIGENTextBoxApply": GLIGENTextBoxApply,
     "InpaintModelConditioning": InpaintModelConditioning,
-
+    "CannyEdgePreprocessor": CannyEdgePreprocessor,
     "CheckpointLoader": CheckpointLoader,
     "DiffusersLoader": DiffusersLoader,
 
