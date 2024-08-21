@@ -243,7 +243,7 @@ def process_image(image_path: str):
 @app.post("/process-image/")
 async def process_upload_image(
         file: UploadFile = File(...)):
-    temp_file_path = f"/home/ubuntu/ComfyUI/input/temp_{file.filename}"
+    temp_file_path = f"/root/ComfyUI/input/temp_{file.filename}"
     with open(temp_file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
 
