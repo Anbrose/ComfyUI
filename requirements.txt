@@ -71,8 +71,8 @@ tensorflow_datasets
 termcolor==2.4.0
 tifffile==2024.6.18
 timm==1.0.8
-torch_directml==0.2.4.dev240815
-torch_tb_profiler==0.4.3
+torch_directml
+torch_tb_profiler
 torchaudio
 torchmetrics
 torchsde
@@ -84,7 +84,7 @@ turbojpeg==0.0.2
 typing_extensions==4.12.2
 uvicorn==0.30.6
 websocket_client==1.8.0
-xformers==0.0.27.post2
+xformers
 yacs==0.1.8
 yapf==0.40.2
 
