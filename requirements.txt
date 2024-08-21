@@ -26,7 +26,6 @@ kornia==0.7.2
 lmdb==1.5.1
 mano==0.5.2
 matplotlib==3.9.2
-mc
 mediapipe==0.10.14
 mmcv==2.2.0
 mmdet==3.3.0
