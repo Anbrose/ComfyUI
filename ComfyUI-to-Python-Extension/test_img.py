@@ -135,7 +135,7 @@ def import_custom_nodes() -> None:
     execution.PromptQueue(server_instance)
 
     # Initializing custom nodes
-    init_custom_nodes()
+    init_builtin_extra_nodes()
 
 
 from nodes import (
