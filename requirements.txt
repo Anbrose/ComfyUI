@@ -60,7 +60,7 @@ scipy==1.14.0
 setuptools==69.5.1
 Shapely==2.0.5
 simpleeval==0.9.13
-skimage
+scikit-image
 spandrel==0.3.4
 spandrel_extra_arches==0.1.1
 submitit==1.5.1
