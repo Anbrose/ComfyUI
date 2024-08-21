@@ -51,7 +51,6 @@ pygit2==1.15.1
 Pygments==2.18.0
 pytest==8.3.2
 PyYAML==6.0.1
-PyYAML==6.0.2
 regex==2024.5.15
 rembg==2.0.58
 Requests==2.32.3
@@ -74,10 +73,10 @@ tifffile==2024.6.18
 timm==1.0.8
 torch_directml==0.2.4.dev240815
 torch_tb_profiler==0.4.3
-torchaudio==2.3.1
-torchmetrics==1.4.1
-torchsde==0.2.6
-torchvision==0.18.1
+torchaudio
+torchmetrics
+torchsde
+torchvision
 tqdm==4.66.4
 transformers==4.41.2
 trimesh==4.4.6
