@@ -451,7 +451,9 @@ class ComfyUItoPython:
 
 
 if __name__ == '__main__':
-    # Update class parameters here
+    # Take the first parameter as the input file path, and the second parameter as the output file path
+
+
     input_file = 'workflow_api.json'
     output_file = 'workflow_api.py'
     queue_size = 10
