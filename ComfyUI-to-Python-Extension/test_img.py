@@ -243,15 +243,15 @@ def process_image(image_path: str):
 @app.post("/process-image/")
 async def process_upload_image(
         file: UploadFile = File(...)):
-    temp_file_path = f"/root/ComfyUI/input/temp_{file.filename}"
+    temp_file_path = f"/ComfyUI/input/temp_{file.filename}"
     with open(temp_file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
 
     process_image(temp_file_path)
-    processed_image_path = find_max_numbered_file("/home/ubuntu/ComfyUI/output/")
+    processed_image_path = find_max_numbered_file("/ComfyUI/output/")
 
     # Read the processed image into memory
-    with open("/home/ubuntu/ComfyUI/output/"+processed_image_path, "rb") as f:
+    with open("/ComfyUI/output/"+processed_image_path, "rb") as f:
         image_data = f.read()
 
     # Clean up temporary files
