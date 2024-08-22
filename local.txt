@@ -7,3 +7,6 @@ torchsde
 aiohttp
 python-multipart
 uvicorn
+black
+kornia
+spandrel
