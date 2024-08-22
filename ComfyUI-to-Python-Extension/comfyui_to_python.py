@@ -153,6 +153,7 @@ class LoadOrderDeterminer:
         """
         # Iterate over each key in the data to check for loader keys.
         for key in self.data:
+            print("Data: ", self.data, "Key: ", key, "Class: ", class_def)
             class_def = self.node_class_mappings[self.data[key]['class_type']]()
             # Check if the class is a loader class or meets specific conditions.
             if (class_def.CATEGORY == 'loaders' or 
