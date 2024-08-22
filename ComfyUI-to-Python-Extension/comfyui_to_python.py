@@ -454,7 +454,7 @@ if __name__ == '__main__':
     # Take the first parameter as the input file path, and the second parameter as the output file path
 
 
-    input_file = 'workflow_api.json'
+    input_file = 'deploy_version1002.json'
     output_file = 'workflow_api.py'
     queue_size = 10
 
