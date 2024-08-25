@@ -172,12 +172,12 @@ def process_image(image_path: str):
 
         cliptextencode = CLIPTextEncode()
         cliptextencode_6 = cliptextencode.encode(
-            text="lofi style, 4K, cinematic, dark sky",
+            text="4K,cinematic, masterpiece, Photo of a dramatic landscape with crepuscular rays piercing through the sky, rim light, dusk, modern building, blue sky, bright theme",
             clip=get_value_at_index(loraloader_17, 1),
         )
 
         cliptextencode_7 = cliptextencode.encode(
-            text="owres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpg artifacts,signature,watermark,username,blurry,bad house, bad scene",
+            text="owres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpg artifacts,signature,watermark,username,blurry, bad building, bad cars, bad river, bad lak",
             clip=get_value_at_index(loraloader_17, 1),
         )
 
